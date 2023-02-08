@@ -8,11 +8,14 @@
 }
 
 .wrapper-log {
-    width: 80%;
+    padding: 20px 0;
+    background: url(/assets/img/log-backround.jpg);
+    width: 100%;
 }
 
 .log-type-cover {
-    /* border: purple 1px solid; */
+    height: 100%;
+    padding: 50px 0;
     padding-left: 100px;
 }
 
@@ -21,9 +24,14 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    border: #cd3946 1px solid;
+    /* border: #cd3946 6px solid; */
+    background-color: #f4f4f4;
+    box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
+    -moz-box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
     padding: 10px;
     border-radius: 1rem;
+    margin: auto;
 }
 
 .log-title {
@@ -52,10 +60,9 @@
 .logss {
     height: 200px;
     width: 400px;
-    /* border: green 1px solid; */
     border-radius: 1rem;
-    /* position: absolute; */
     z-index: 900;
+    
 }
 
 .logssf3-1 {
