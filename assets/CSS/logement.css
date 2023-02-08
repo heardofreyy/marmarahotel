@@ -1,0 +1,36 @@
+.log {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.log-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.log-disc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.log-disc ul {
+    margin-left: 15px;
+}
+
+.log-price {
+    border-top: 1px solid #cd3946;
+    border-bottom: 1px solid #cd3946;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
