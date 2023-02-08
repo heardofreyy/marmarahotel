@@ -82,3 +82,103 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+.hotel-index-title {
+	font-size: 60px;
+	letter-spacing: -0.04em;
+}
+
+#hotel-index-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.carousel {
+	max-width: 70%;
+	margin: auto;
+	padding: 0 30px;
+}
+
+.carousel .card {
+	color: #fff;
+	text-align: center;
+	margin: 20px 0;
+	line-height: 250px;
+	font-size: 90px;
+	font-weight: 600;
+	border-radius: 10px;
+	background: #d1d1d1;
+	height: 400px;
+}
+
+.carousel .card-1 {
+	background-image: url(../img/h1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .card-2 {
+	background-image: url(../img/h2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .card-3 {
+	background-image: url(../img/h3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .card-4 {
+	background-image: url(../img/h4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .card-5 {
+	background-image: url(../img/h5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .card-6 {
+	background-image: url(../img/h6.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .card-7 {
+	background-image: url(../img/h7.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .card-8 {
+	background-image: url(../img/h8.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.owl-dots {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.owl-dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 5px;
+	outline: none;
+	border-radius: 50%;
+	border: 2px solid #0072bc!important;
+	transition: all 0.3s ease;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+	background: #0072bc!important;
+}
