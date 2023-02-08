@@ -1,16 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "spartan",sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
 .header{
     height: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color:rgb(227, 219, 219) ;
+    padding: 0 2vw;
+    background-color: #f4f4f4;
+    /* border-bottom: 1px solid #cd3946;  */
+    box-shadow: 0px 0px 10px 1px #cd394683;
     z-index: 999;
 }
 .left-section{

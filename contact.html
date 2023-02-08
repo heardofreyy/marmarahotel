@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
-    <title>Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Marmara</title>
 </head>
 <body>
-    <section class="header">
-        <a href="index.html"><img src="img/logomarmara.jpg" class="logo" alt="mar-Logo"></a>
-        <div>
-            <ul class="navbar">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="reserve.html">Reserve</a></li>
-                <li><a href="contactus.html" >Contact Us</a></li>
-            </ul>
+    <header class="header">
+        <div class="left-section">
+            <img src="/img/mar.png">
         </div>
-    </section>
+        <nav class="right-section">
+            <div>
+               <button class="botona" onclick="location.href='/index.html'">Accueil</button> 
+            </div>
+            <div>
+                <button class="botona" onclick="location.href='#apropos'">à propos</button>
+            </div>
+            <div>
+                <button class="botona" onclick="location.href='/logement.html'">Logement</button>
+            </div>
+            <div>
+                <button class="botona" onclick="location.href='/diner.html'">Dîner</button>
+            </div>
+            <div>
+                <button class="botona" onclick="location.href='/contact.html'">Contact</button>
+            </div>
+                  
+        </nav>
+    </header>
 
     <section class="main">
 
@@ -49,6 +63,8 @@
     <footer>
         <h1>what  EVER </h1> 
     </footer>
+
+    <script src="app.js"></script>
 </body>
 
 
