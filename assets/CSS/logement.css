@@ -24,7 +24,6 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    /* border: #cd3946 6px solid; */
     background-color: #f4f4f4;
     box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
     -webkit-box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
@@ -37,6 +36,8 @@
 .log-title {
     text-align: center;
     font-size: 25px;
+    margin-bottom: -50px;
+    margin-left: -40px;
 }
 
 .right-log {
@@ -62,7 +63,10 @@
     width: 400px;
     border-radius: 1rem;
     z-index: 900;
-    
+    box-shadow: 1px 1px 111px 8px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 1px 1px 111px 8px rgba(0,0,0,0.24);
+    -moz-box-shadow: 1px 1px 111px 8px rgba(0,0,0,0.24);
+
 }
 
 .logssf3-1 {
@@ -129,6 +133,10 @@
 
 .log-disc ul {
     margin-left: 15px;
+}
+
+.log-disc p {
+    padding-right: 50px;
 }
 
 .log-price {

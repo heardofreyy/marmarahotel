@@ -155,8 +155,12 @@ main {
 	margin-top: 30px;
 }
 
-#apropos {
+.linker {
 	margin-bottom: 100px;
+}
+
+#logement {
+	margin-bottom: 40px;
 }
 
 /* ------------------ Our hotel ---------------------------*/
