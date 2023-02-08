@@ -21,11 +21,15 @@ html{
 .header{
     height: 90px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    padding: 0 2vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 80px;
+    /* padding: 0 2vw; */
     background-color: #f4f4f4;
     /* border-bottom: 1px solid #cd3946;  */
     box-shadow: 0px 0px 10px 1px #cd394683;
@@ -34,7 +38,7 @@ html{
 .left-section{
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 
 }
 
@@ -43,8 +47,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 20px;
-    flex-shrink: 0;
+    /* margin-right: 20px; */
+    /* flex-shrink: 0; */
 }
 .botona{
     height: 60px;
