@@ -77,22 +77,8 @@ main {
 
 /* ------------------ Our hotel ---------------------------*/
 
-.sec-head { 
-	font-size: 60px;
-	letter-spacing: -0.04em;
-}
 
-.hotels {
-	margin-top: 130px;
-}
-
-#hotels-head {
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-
-/* .hotel-index {
+.hotel-index {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,10 +92,10 @@ main {
 #hotel-index-title {
 	text-align: center;
 	margin-bottom: 30px;
-} */
+}
 
 .wrapper {
-	width: 100%;
+	width: 100vw;
 }
 
 .carousel {
@@ -131,53 +117,59 @@ main {
 }
 
 .carousel .card-1 {
-	background-image: url(/img/carousel/c1.jpg);
+	background-image: url(/assets/img/carousel/c1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .carousel .card-2 {
-	background-image: url(/img/carousel/c2.jpg);
+	background-image: url(/assets/img/carousel/c2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .carousel .card-3 {
-	background-image: url(/img/carousel/c3.jpg);
+	background-image: url(/assets/img/carousel/c3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .carousel .card-4 {
-	background-image: url(/img/carousel/c4.jpg);
+	background-image: url(/assets/img/carousel/c4.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .carousel .card-5 {
-	background-image: url(/img/carousel/c5.jpg);
+	background-image: url(/assets/img/carousel/c5.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .carousel .card-6 {
-	background-image: url(/img/carousel/c6.jpg);
+	background-image: url(/assets/img/carousel/c6.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .carousel .card-7 {
-	background-image: url(/img/carousel/c7.jpg);
+	background-image: url(/assets/img/carousel/c7.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .carousel .card-8 {
-	background-image: url(/img/carousel/c8.jpg);
+	background-image: url(/assets/img/carousel/c8.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
+.carousel .card-9 {
+	background-image: url(/assets/img/carousel/c9.jpg);
+	background-size: cover;
+	background-position: center;
+}
+ 
 .owl-dots {
 	text-align: center;
 	margin-top: 40px;
@@ -189,11 +181,14 @@ main {
 	margin: 0 5px;
 	outline: none;
 	border-radius: 50%;
-	border: 2px solid #0072bc!important;
+	border: 2px solid #cd3946!important;
 	transition: all 0.3s ease;
 }
 
 .owl-dot.active,
 .owl-dot:hover {
-	background: #0072bc!important;
+	background: #9a2a34!important;
 }
+
+
+/*----------------------------------------------------------------------------------------------*/
