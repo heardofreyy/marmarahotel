@@ -1,17 +1,117 @@
 .log {
-    width: 80vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
+    
+}
+
+.wrapper-log {
+    width: 80%;
+}
+
+.log-type-cover {
+    /* border: purple 1px solid; */
+    padding-left: 100px;
 }
 
 .log-type {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border: #cd3946 1px solid;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.log-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.right-log {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 50px;
+    /* width: 60%; */
+}
+
+.left-log {
+    position: relative;
+    width: 400px;
+    margin-left: -100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
     gap: 20px;
 }
+
+.logss {
+    height: 200px;
+    width: 400px;
+    /* border: green 1px solid; */
+    border-radius: 1rem;
+    /* position: absolute; */
+    z-index: 900;
+}
+
+.logssf3-1 {
+    background-image: url(/assets/img/logement/f3-1.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+.logssf3-2 {
+    background-image: url(/assets/img/logement/f3-2.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+.logssf3-3 {
+    background-image: url(/assets/img/logement/f3-3.jpg);
+    background-size: cover;
+	background-position: center;
+}
+.logssf2-1 {
+    background-image: url(/assets/img/logement/f2-1.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+.logssf2-2 {
+    background-image: url(/assets/img/logement/f2-2.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+.logssf2-3 {
+    background-image: url(/assets/img/logement/f2-3.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+.logssf1-1 {
+    background-image: url(/assets/img/logement/f1-1.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+.logssf1-2 {
+    background-image: url(/assets/img/logement/f1-2.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+.logssf1-3 {
+    background-image: url(/assets/img/logement/f1-3.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+
 
 .log-disc {
     display: flex;

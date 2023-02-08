@@ -21,3 +21,14 @@ $(".carousel").owlCarousel({
     //   }
     // }
   });
+
+  $(".log").owlCarousel({
+    items: 1,
+    nav: false,
+    // margin: 20,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+  });
+
