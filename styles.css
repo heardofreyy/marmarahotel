@@ -9,6 +9,10 @@
     font-family: "spartan",sans-serif;
 }
 
+body {
+    background-color: #f4f4f4;
+}
+
 html{
     scroll-behavior: smooth;
 
