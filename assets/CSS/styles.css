@@ -183,11 +183,11 @@ main {
 }
 
 .wrapper {
-	width: 100vw;
+	max-width: 70vw;
 }
 
 .carousel {
-	max-width: 70%;
+	/* max-width: 70%; */
 	margin: auto;
 	padding: 0 30px;
 }
@@ -202,6 +202,7 @@ main {
 	border-radius: 10px;
 	background: #d1d1d1;
 	height: 400px;
+	width: 300px;
 }
 
 .carousel .card-1 {
