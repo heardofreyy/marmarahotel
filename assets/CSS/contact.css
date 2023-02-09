@@ -89,6 +89,7 @@
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
+    color: #f02214;
 }
 
 .contact .contactInfo .box .text{
@@ -158,14 +159,19 @@
 
 .contactForm .inputBox input[type="submit"]{
     width: 100px;
-    background: #00bcd4;
+    background: #cd3946;
     border:none;
     padding: 10px;
     cursor: pointer;
     font-size: 18px;
     color: #fff;
+    transition: 0.3s;
 }
 
+.contactForm .inputBox input[type="submit"]:hover{
+
+    background: #9a2a34;
+}
 
 
 
