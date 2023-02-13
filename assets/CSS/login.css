@@ -1,0 +1,76 @@
+.logsign {
+    margin-top: 100px;
+    position: relative;
+    width: 70vw;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
+    -moz-box-shadow: 1px 0px 39px -7px rgba(0,0,0,0.72);
+}
+
+.logsign-child {
+    position: absolute;
+    background-color: #cd3946;
+    width: 10em;
+    height: 3em;
+    top: -1.5em;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.logsign-child .log-btn, .logsign-child .sign-btn{
+    width: 50%;
+    border: 0;
+    background-color: transparent;
+    color: #f4f4f4;
+}
+
+.logsign-child .log-btn {
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-right: 0.1px solid rgba(0, 0, 0, 0.263);
+}
+
+.logsign-child .sign-btn {
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    /* border-left: 0.01px solid; */
+}
+
+.logsign-main-child {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-child {
+    width: 300px;
+    height: 80%;
+    background: url(/assets/img/log-sign.jpg);
+    background-size: cover;
+	background-position: center;
+    border-radius: 1rem;
+    z-index: 800;
+}
+
+.form-child {
+    width: 55%;
+    height: 80%;
+    background-color: #f4f4f4;
+    margin-left: -20px;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
